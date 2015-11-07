@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app="MainApp">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" src="libs/bootstrap/dist/css/bootstrap.min.css" />
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="views/js/controller.js"></script>
+
+
+    <meta charset="UTF-8">
+
+    <title>Angular Sinistro</title>
+
+</head>
+<body ng-controller="MainController as ctrl">
+	<div class="row">
+		<form action="/" method="POST">
+			<label> Nome do nerd: </label>
+				<input type="text" name="nome" ng-model="ctrl.nome"/>
+			<label> E-mail: </label>
+				<input type="email" name="email" ng-model="ctrl.email"/>
+			<label> Senha: </label>	
+				<input type="password" name="senha" ng-model="ctrl.senha"/>
+			<input type="submit" name="submit" value="Enviar" />
+		</form>
+  	</div>
+   <div>
+	   {{ctrl.nome}}
+	   {{ctrl.email}}
+	   {{ctrl.senha}}
+   </div>
+   <div>
+   		{{rola.length}}
+
+   		<ul>
+   			<li ng-repeat="x in rola">{{x.email}}</li>
+   			
+   		</ul>
+   </div>
+
+</body>
+</html>
