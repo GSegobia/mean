@@ -1,0 +1,29 @@
+AngularJS
+	-História
+	-MVW
+	-Conceitos
+	-Diretivas
+	-Controladores
+	-Módulos
+	-Requisições ao server - Service
+	-Rotas
+NodeJS
+	-Funcionamento
+	-Express
+		-Rotas
+		-Modulos
+		-Gerenciador
+		-Conexão Mongo(mongoose)
+Mongo
+	-Estabelecer Conexão
+	-Definir Url
+	-Schema
+
+*Bower
+*Npm
+*Gulp
+*Grunt
+*Mean.io
+*Mean.js
+*Ionic??
+
